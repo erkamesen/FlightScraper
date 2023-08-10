@@ -82,7 +82,6 @@ for URL in URLS:
 
     else:
         loaded_tickets = tickets.get_tickets()
-        loaded_tickets.tickets["TK2158"]["price"] = 3500
         for id in loaded_tickets.tickets.keys():
             control_price = scraped_tickets[id]["price"]
             old_price = loaded_tickets.tickets[id]["price"]
