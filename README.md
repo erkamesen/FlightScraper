@@ -45,7 +45,7 @@ python main.py
 - _If you want to run the script periodically, you can use "Task Scheduler" in windows and "Crontab" in Linux._
 
 
-## Bouns - Crontab - Linux
+## Bonus - Crontab - Linux
 
 - _Open Terminal and learn python path:_
 ```
