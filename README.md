@@ -7,7 +7,7 @@ _Why are you looking for expensive tickets? Don't miss out on discounted tickets
 
 - _Parses the links added to the config.yaml file and return their information. -> Dict_
 - _Returns information for all tickets found in the link._
-- _Stores this information in an object created from the Ticket class and this object in the pickle file.
+- _Stores this information in an object created from the Ticket class and this object in the pickle file._
 - _When you run the script again, the ticket prices are compared with the prices from the pickle file. If the new price is less, the user is notified._
 
 ## Install
