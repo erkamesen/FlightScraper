@@ -2,21 +2,20 @@
 
 URLS:
   - https://globalbiletix.onlineota.com/a/flight/search/result/all?departure_id=6IST1TR&departure=Istanbul,%20Istanbul%20Havalimani%20(IST),%20TR&destination_id=6ADA1TR&destination=Adana,%20Adana%20Sakirpasa%20Havalimani%20(ADA),%20TR&departure_date=24.08.2023&adult_num=1&child_num=0&infant_num=0
-  - https://globalbiletix.onlineota.com/a/flight/search/result/all?departure_id=6ESB1TR&departure=Ankara,%20Esenboga%20Havalimani%20(ESB),%20TR&destination_id=6TIA1TR&destination=Tiran,%20Tiran%20Uluslararasi%20Havalimani%20(TIA),%20AL&departure_date=25.10.2023&adult_num=2&child_num=2&infant_num=1
-  - https://globalbiletix.onlineota.com/a/flight/search/result/all?departure_id=6IST2TR&departure=Istanbul,%20Tum%20Havaalanlari%20(IST),%20TR&destination_id=6ESB1TR&destination=Ankara,%20Esenboga%20Havalimani%20(ESB),%20TR&departure_date=08.09.2023&adult_num=1&child_num=0&infant_num=1
+  - https://globalbiletix.onlineota.com/a/flight/search/result/all?departure_id=6IST1TR&departure=Istanbul,%20Istanbul%20Havalimani%20(IST),%20TR&destination_id=6SHA2TR&destination=Shanghai,%20Tum%20Havaalanlari%20(SHA),%20CN&departure_date=30.08.2023&return_date=21.09.2023&adult_num=1&child_num=0&infant_num=0
 
 
 # SENDER EMAIL, SMTP TOKEN & RECEIVER EMAIL HERE <<<
 SMTP:
   USE: True # Change to False if you will not use email sender system.
   sender_email: scraperflight@gmail.com           # <<< SENDER EMAIL
-  smtp_key: -                    # <<< SMTP TOKEN 
-  receiver_email: erkamesen789@gmail.com        # <<< RECEIVER EMAIL
+  smtp_key:                     # <<< SMTP TOKEN 
+  receiver_email: erkamesen789@gmail.com       # <<< RECEIVER EMAIL
 
 
 
 ## (Optional) TELEGRAM - Set your APIKEY and add ChatIDs
 TELEGRAM:
-  USE: True # Change to False if you will not use telegram.
-  TELEGRAM_APIKey: -
-  TELEGRAM_chatID: - # 1
+  USE: False # Change to False if you will not use telegram.
+  TELEGRAM_APIKey: 
+  TELEGRAM_chatID:  # 1
