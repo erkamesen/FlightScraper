@@ -7,12 +7,13 @@ from pkg.tele import Telegram
 from plyer import notification
 import socket
 import time
+
+
 ################ YAML ################
 
 with open('config.yaml', 'r') as file:
     data = yaml.load(file, Loader=yaml.FullLoader)
 
-# URLS = data["URLS"]
 
 URLS = data["URLS"]
 

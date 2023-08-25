@@ -7,7 +7,6 @@ class Ticket:
                  destination, destination_code, departure_date, adult_num,
                  child_num, state, tickets):
 
-
         self.departure_id = departure_id,
         self.departure = departure
         self.departure_code = departure_code
@@ -35,12 +34,11 @@ class Ticket:
         res = {}
         for key in loaded_data.tickets:
             if key.startswith(code):
-            
+
                 value = loaded_data.tickets[key]
                 print(f"{key}:{value}")
                 res[key] = value
         return res
-
 
     def __repr__(self) -> str:
         return f"departure_id = {self.departure_id}\ndeparture = {self.departure}\n\
